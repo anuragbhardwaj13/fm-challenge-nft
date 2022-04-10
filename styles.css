@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+:root{
+    --soft-blue:hsl(215, 51%, 70%);
+    --cyan:hsl(178, 100%, 50%);
+    --main-bg:hsl(217, 54%, 11%);
+    --card-bg:hsl(216, 50%, 16%);
+    --line:hsl(215, 32%, 27%);
+    --white:hsl(0, 0%, 100%);
+
+}
+body{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    font-family: Outfit;
+    background-color: var(--main-bg);
+}
+.card{
+    border-radius: 20px;
+    max-width: 50vw;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--card-bg);
+    justify-content: center;
+    padding: 20px;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    border-radius: 5%;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+.name{
+    color: var(--white);
+    font-weight: 600;
+    font-size: 2rem;
+}
+.light{
+    color: var(--soft-blue);
+}
+.details-container{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.icon-eth{
+    padding-right: 10px;
+}
+.time-container{
+    position: absolute;
+    top: 0px;
+    right: 1rem;
+    
+}
+.price-text{
+    display: flex;
+    color: var(--cyan);
+    padding-bottom: 10px;
+    font-size: 1rem;
+}
+.clock{
+    padding-right: 10px;
+    
+}
+.time{
+    display: flex;
+    color: var(--soft-blue);
+    font-size: 1rem;
+    
+}
+.line{
+    width: 100%;
+    color: var(--line);
+}
+.user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.user-img{
+    width: 100%;
+    max-width: 50px;
+    height: auto;
+    border:2px solid white;
+    border-radius: 50%
+}
+.user-text{
+    font-size: 1.25rem;
+    padding-left: 20px;
+    color:var(--soft-blue)
+}
+.username{
+    color: var(--white);
+}
